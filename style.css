@@ -73,3 +73,26 @@ body {
   font-weight: 400;
   border-radius: 5px;
 }
+
+#user-input::placeholder {
+  color: #8e8e8e;
+  font-weight: 400;
+}
+
+#send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: all 0.3s ease;
+}
+
+#send-button:hover {
+  background-color: #388e3c;
+}
